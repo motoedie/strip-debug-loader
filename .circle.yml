@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 4.2.0
+test:
+  override:
+    - npm run test:cover
+general:
+  artifacts:
+    - "coverage" # relative to code coverage

@@ -1,0 +1,36 @@
+{
+  "name": "strip-debug-loader",
+  "version": "1.0.0",
+  "description": "Remove console, alert, and debugger statements from code processed by webpack",
+  "main": "src/index.js",
+  "dependencies": {
+    "strip-debug": "1.1.1"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "eslint": "1.10.3",
+    "eslint-config-airbnb": "2.1.0",
+    "isparta": "4.0.0",
+    "mocha": "2.3.4"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "prepublish": "npm run lint && npm test",
+    "test": "node_modules/mocha/bin/_mocha",
+    "test:cover": "node_modules/isparta/bin/isparta cover --report text --report html node_modules/mocha/bin/_mocha -- --reporter spec",
+    "test:watch": "node_modules/mocha/bin/_mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motoedie/strip-debug-loader.git"
+  },
+  "keywords": [
+    "webpack", "loader", "strip", "remove", "delete", "debug", "debugger", "clean", "console", "js", "javascript", "log", "logging"
+  ],
+  "author": "Ladislav Starek <ladislav.starek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motoedie/strip-debug-loader/issues"
+  },
+  "homepage": "https://github.com/motoedie/strip-debug-loader#readme"
+}

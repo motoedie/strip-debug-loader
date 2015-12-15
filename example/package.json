@@ -1,0 +1,16 @@
+{
+  "name": "strip-debug-loader-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config ./webpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "strip-debug-loader": "1.0.0",
+    "webpack": "1.12.9"
+  },
+  "author": "",
+  "license": "MIT"
+}
