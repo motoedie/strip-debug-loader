@@ -1,5 +1,6 @@
 # strip-debug-loader
 [![Circle CI](https://circleci.com/gh/motoedie/strip-debug-loader.svg?style=svg)](https://circleci.com/gh/motoedie/strip-debug-loader)
+[![npm version](https://img.shields.io/npm/v/strip-debug-loader.svg?style=flat-square)](https://www.npmjs.com/package/strip-debug-loader)
 
 Removed debug statements from your code using webpack.
 
